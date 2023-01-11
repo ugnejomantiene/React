@@ -1,11 +1,11 @@
-const Card = () => {
-    return ( 
-        <div className="card">
-            <img src={require('../images/image1.jpg')} alt="p" />
-             <p>Lorem</p>
-        </div>
-     );
-}
+const Card = ({data}) => {
+    return (
+      <div className="card">
+        <img src={data.src} alt="Card" />
+        <p>{data.info}</p>
+      </div>
+    );
+  }
 
 
 export default Card;
