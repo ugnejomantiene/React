@@ -10,8 +10,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 /* Header  */
 
 header {
-    background-image: url(./images/hero.avif);
-    height: 500px;
+    background-image: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQetWimBq7bc3dwNwK_ZPsuTJOFSh6C4K_zyUPktvF1mcAs0YyR7dIZ7EitRW1VBPUaSGfjhrDpZ897Jv4Rho_rnVX3hCA8VlH2-IEDOzUNX0SwxHBcsYyz6b4FPdBEEa9fSscUJnHUpTtlKizng8RjdTjIA.jpg?r=452);
+    height: 600px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -85,6 +85,7 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     text-align: center;
     filter: grayscale();
+    position: relative;
 
   
 }
@@ -92,11 +93,15 @@ button:hover {
     box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
     scale: 1.2;
     position: relative;
-    z-index: 5;
+    z-index: 2;
+
     filter: none;
 
 }
 .card img {
     width: 100%;
     height: 320px
+}
+.card p {
+    position: relative;
 }

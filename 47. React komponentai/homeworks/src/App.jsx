@@ -22,7 +22,7 @@ function App() {
               info: 'Text'
             },
             {
-              src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReNHzkJmCCimk3ufC9CkdnSjDbsd2YeZbfpVhGnQYfH301R7VOGNh_QvcdICsoZbYcGdg&usqp=CAU',
+              src: 'https://images3.alphacoders.com/128/1289556.jpg',
               info: 'Text'
             },
             {
@@ -30,15 +30,15 @@ function App() {
               info: 'Text'
             },
             {
-              src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIPOJGG3rSzBzEgoPN-IVlCpkcGlJQdpaxGDG5dUo-zoUzeAYyExVzKBngiYdBsort-6k&usqp=CAU',
+              src: 'https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/11/Wednesday-ending-explained.jpg',
               info: 'Text'
             },
             {
-              src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUGctsk_HUD6rZNHQBeVsxvU_xxbicXggWaB-2s0hR2yCbTwOA2UuoskPkDelMaBj4C80&usqp=CAU',
+              src: 'https://bleedingcool.com/wp-content/uploads/2022/09/Wednesday-Addams-vs.-Thing-_-Official-Clip-_-Netflix-0-55-screenshot-1200x900.jpg',
               info: 'Text'
             },
             {
-              src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT83RYD8tTkSKsmnSJYKlTlqXEt09GtTZVlFGlymbxbrehDM_KhnGArJBYlX34H5EBoD1k&usqp=CAU',
+              src: 'https://cdn.flickeringmyth.com/wp-content/uploads/2022/09/Wednesday-Addams-vs.-Thing-_-Official-Clip-_-Netflix-0-20-screenshot.jpg',
               info: 'Text'
             }
           ]
