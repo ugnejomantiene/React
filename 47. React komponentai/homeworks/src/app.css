@@ -94,6 +94,7 @@ button:hover {
     scale: 1.2;
     position: relative;
     z-index: 2;
+    margin: 0 50px;
 
     filter: none;
 
