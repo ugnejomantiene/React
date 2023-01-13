@@ -1,12 +1,15 @@
 function UserInfo(props) {
     return (
       <div className="user-info">
-        <img src="https://w7.pngwing.com/pngs/146/551/png-transparent-user-login-mobile-phones-password-user-miscellaneous-blue-text-thumbnail.png" alt="User Icon" className="user-icon" />
-        <p>Name</p>
-        <p>Marked Articles: {props.markedCount}</p>
+        <div>
+          <p>Name</p>
+          <p>Marked Articles: {props.markedCount}</p>
+        </div>
+        <img src="https://cdn-icons-png.flaticon.com/512/166/166258.png" alt="User Icon" className="user-icon" />
+        
       </div>
     );
-  }
+}
   
  
 

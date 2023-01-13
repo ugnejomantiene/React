@@ -9,14 +9,16 @@ function Article(props) {
     }
   
     return (
-      <div className={isMarked ? "marked-article" : "unmarked-article"}>
+      <div id="article" className =  {isMarked ? "marked-article" : "unmarked-article"} article>
         <img src={props.image} alt={props.title} />
-        <h2>{props.title}</h2>
-        <p>{props.paragraph1}</p>
-        <p>{props.paragraph2}</p>
-        <p>{props.paragraph3}</p>
-        <button onClick={handleClick}>{isMarked ? "Unmark" : "Mark"}</button>
+        <div className="articleText">
+          <h2>{props.title}</h2>
+          <p>{props.paragraph1}</p>
+          <p>{props.paragraph2}</p>
+          <p>{props.paragraph3}</p>
+        </div>
+        <button className="btn"  onClick={handleClick}>{isMarked ? "Unmark" : "Mark"}</button>
       </div>
     );
   }
-   export default Article;
+export default Article;
