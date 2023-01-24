@@ -9,7 +9,8 @@ function Article(props) {
     }
   
     return (
-      <div id="article" className =  {isMarked ? "marked-article" : "unmarked-article"} article>
+      // Kaip pridėdi papildoma klase?
+      <div id='article' className = {`${isMarked ? "marked-article" : "unmarked-article"} `}>  
         <img src={props.image} alt={props.title} />
         <div className="articleText">
           <h2>{props.title}</h2>
